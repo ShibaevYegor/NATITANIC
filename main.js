@@ -57,6 +57,8 @@ btn.addEventListener("click", function(e) {
 let one = document.querySelectorAll(".quadruplebox-s");
 let two = document.querySelectorAll(".triplebox-s");
 let under = document.querySelectorAll(".under");
+let silka = document.querySelectorAll(".silka");
+
 
 btn.addEventListener("click", function(e) {
     e.preventDefault()
@@ -68,6 +70,9 @@ btn.addEventListener("click", function(e) {
     }
     for (let i=0; i<under.length; i++){
         under[i].classList.toggle("new-under");
+    }
+    for (let i=0; i<silka.length; i++){
+        silka[i].classList.toggle("new-silka");
     }
 })
 
@@ -89,3 +94,29 @@ btn.addEventListener('click', function(e) {
     lend.classList.toggle("new-lend");
     more.classList.toggle("new-more");
 })
+
+// 
+
+let foot = document.querySelector(".footer-one");
+let contact = document.querySelector(".contact");
+let email = document.querySelector(".email");
+let inst = document.querySelector(".inst");
+let call = document.querySelector(".call");
+let pp = document.querySelector(".p");
+let logooo = document.querySelector(".logooo");
+let logoo = document.querySelector(".logoo");
+
+
+btn.addEventListener('click', function(e) {
+    e.preventDefault()
+    foot.classList.toggle("new-foot");
+    contact.classList.toggle("new-contact");
+    email.classList.toggle("new-email");
+    inst.classList.toggle("new-inst");
+    call.classList.toggle("new-call");
+    pp.classList.toggle("new-pp");
+    logooo.classList.toggle("new-logooo");
+    logoo.classList.toggle("new-logoo");
+})
+
+// 
