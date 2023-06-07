@@ -118,6 +118,11 @@
     .more{
         margin-top: 20px;
     }
+
+    .main-one{
+        height: 400px;
+        padding-top: 30px;
+    }
 }
 
 @media only screen and (max-width:870px) {
@@ -136,7 +141,7 @@
         margin-bottom: 20px;
     }
 
-    .main-three{
+    .main-two{
         height: 800px;
     }
 
@@ -152,6 +157,24 @@
     .box{
         width: 100%;
         height: 500px;
+    }
+
+    .header-one{
+        height: 1250px;
+    }
+}
+
+@media only screen and (max-width:810px) {
+    .footer{
+        width: 100%;
+    }
+
+    .footer-one{
+        width: 100%;
+    }
+
+    .booox{
+        width: 100%;
     }
 }
 
@@ -186,6 +209,217 @@
     }
 }
 
+@media only screen and (max-width:730px) {
+    .quadruplebox{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        /* height: 1075px; */
+        margin: 0;
+    }
+
+    .triplebox{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        /* height: 1075px; */
+        margin: 0;
+    }
+
+    .main-one{
+        height: 2350px;
+        padding-top: 30px;
+    }
+
+    .quadruplebox-s{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 280px;
+        height: 280px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    .triplebox-s{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 280px;
+        height: 280px;  
+        margin-bottom: 30px;
+    }
+
+    .under{
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .pen{
+        width: 200px;
+        height: 200px;
+    }
+
+    .ui{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .lines{
+        width: 130px;
+        height: 130px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .double-dotes{
+        width: 180px;
+        height: 180px;
+    }
+
+    .code{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .tv{
+        width: 165px;
+        height: 165px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .files{
+        width: 130px;
+        height: 130px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width:710px) {
+    /* .upperbox-three{
+        width: 100%;
+        height: 400px;
+    } 
+
+    .big-man{
+        width: 60%;
+        height: 100%;
+    } */
+
+    .header-one{
+        height: 450px;
+    }
+
+    .upperbox2{
+        display: none;
+    }
+
+    .upperbox{
+        display: flex;
+    }
+
+    .upperbox-one{
+        width: 50%;
+    }
+
+    .upperbox-two{
+        width: 50%;
+        height: 400px;
+    }
+
+    .man{
+        width: 100%;
+        height: 90%;
+    }
+
+    .greeting{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .title{
+        font-size: 55px;
+        margin-bottom: 10px;
+        line-height: 45px;
+    }
+
+    .lorem{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    .booox p, .silka, .email, .inst, .call {
+        font-size: 15px;
+    }
+
+    .odin{
+        height: 100%;
+    }
+
+    .dva{
+        height: 100%;
+    }
+
+    .tri{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .booox{
+        /* background-color: aliceblue; */
+        display: block;
+        height: 100%;
+    }
+
+    .odin{
+        /* background-color: aqua; */
+        height: 50px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .odin .ull{
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:row;
+    }
+    
+    .five{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .dva{
+        /* background-color: aquamarine; */
+        height: 100%;
+        width: 100%;
+    }
+
+    .tri{
+        /* background-color: rgb(110, 238, 238); */
+        height: 100%;
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width:660px) {
     .mask{
         width: 280px;
@@ -217,7 +451,7 @@
         margin-bottom: 20px;
     }
 
-    .main-three{
+    .main-two{
         height: 400px;
         padding-bottom: 10px;
         padding-top: 0px;
@@ -226,6 +460,41 @@
     .main-one{
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:640px) {
+
+    .upperbox-two{
+        width: 60%;
+        /* height: 400px; */
+    }
+
+    .upperbox-one{
+        width: 40%;
+        /* height: 400px; */
+    }
+
+    .man{
+        width: 100%;
+        height: 90%;
+    }
+
+    .greeting{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .title{
+        font-size: 30px;
+        margin-bottom: 5px;
+        line-height: 35px;
+    }
+
+    .lorem{
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 5px;
     }
 }
 
@@ -260,6 +529,12 @@
     }
 }
 
+@media only screen and (max-width:540px) {
+    .a{
+        font-size: 15px;
+    }
+}
+
 @media only screen and (max-width:500px) {
     .box{
         display: block;
@@ -269,7 +544,7 @@
         padding-top: 20px;
     }
 
-    .main-three{
+    .main-two{
         height: 550px;
     }
 
@@ -291,5 +566,268 @@
 
     .landing{
         margin-bottom: 1px;
+    }
+
+    .change{
+        top: 70px;
+        right: 20px;
+    }
+/* 
+    .btn{
+        width: 150px;
+        height: 40px;
+    }
+
+    .title{
+        margin: 0;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    .lorem{
+        line-height: 12px;
+    }
+
+    .upperbox{
+        height: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;  
+        background-color: aqua;  
+    }
+
+    .upperbox-one{
+        height: 100%;
+        padding-top: 25px;
+    }
+
+    .upperbox-two{
+        height: 100%;
+    }
+
+    .man{
+        height: 100%;
+    } */
+
+    .header-one{
+        height: 700px;
+    }
+
+    .navbar{
+        margin-bottom: 30px;
+    }
+
+    .upperbox{
+        display: none;
+    }
+
+    .upperbox2{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 600px;
+        /* background-color: aqua; */
+    }
+
+    .upperbox-three{
+        height: 70%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .upperbox-four{
+        height: 30%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+
+    .big-man{
+        width: 100%;
+    }
+
+    .btn2{
+        width: 150px;
+        height: 40px;
+    }
+
+    .title2{
+        margin: 0;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    .lorem2{
+        line-height: 15px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .header-one{
+        height: 650px;
+    }
+
+    .upperbox2{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 500px;
+        /* background-color: rgb(0, 30, 255); */
+    }
+
+    .upperbox-three{
+        height: 70%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .upperbox-four{
+        height: 30%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+
+    .big-man{
+        width: 100%;
+        height: 100%;
+    }
+
+    .greeting2{
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .btn2{
+        width: 150px;
+        height: 40px;
+    }
+
+    .title2{
+        margin-bottom: 0;
+        line-height: 30px;
+        width: 100%;
+        font-size:30px;
+    }
+
+    .lorem2{
+        line-height: 15px;
+        width: 90%;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .booox .email, .inst, .call {
+        font-size: 12px;
+    }
+
+    .logoo{
+        width: 150px;
+    }
+
+    .top{
+        width: 50px;
+        height: 50px;
+    }
+
+    .a{
+        font-size: 12px;
+    }
+
+    .logo-img{
+        width: 150px;
+    }
+/* 
+    .logo{
+        width: 100px;
+    } */
+
+}
+
+@media only screen and (max-width:420px) {
+    /* .a{
+        font-size: 10px;
+    } */
+
+    .logo-img2{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .title2{
+        margin: 0;
+        line-height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .lorem2{
+        line-height: 12px;
+        width: 100%;
+        /* margin: 0; */
+        text-align: center;
+    }
+
+    .btn2{
+        width: 150px;
+        height: 40px;
+    }
+
+    .upperbox-three{
+        height: 65%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    .greeting2{
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .upperbox-four{
+        height: 35%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        /* background-color: aquamarine; */
+        text-align: center;
+    }
+
+    .booox .email, .inst, .call {
+        font-size: 8px;
+    }
+
+    .logo-img{
+        width: 120px;
+    }
+
+    .logo-img2{
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width:365px) {
+    .logo-img{
+        width: 100px;
+    }
+
+    .logo-img2{
+        width: 100px;
     }
 }

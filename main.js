@@ -31,7 +31,10 @@ let lI = document.querySelector(".logo-img");
 let lI2 = document.querySelector(".logo-img2");
 let title = document.querySelector(".title");
 let gree = document.querySelector(".greeting");
-let p = document.querySelector("p")
+let p = document.querySelector(".lorem");
+let title2 = document.querySelector(".title2");
+let gree2 = document.querySelector(".greeting2");
+let p2 = document.querySelector(".lorem2")
 
 btn.addEventListener("click", function(e) {
     e.preventDefault()
@@ -39,8 +42,11 @@ btn.addEventListener("click", function(e) {
     lI2.classList.toggle("new-logo");
     lI.classList.toggle("new-lI");
     title.classList.toggle("new-title");
-    gree.classList.toggle("new-gree")
-    p.classList.toggle("new-p")
+    gree.classList.toggle("new-gree");
+    p.classList.toggle("new-p");
+    title2.classList.toggle("new-title2");
+    gree2.classList.toggle("new-gree2");
+    p2.classList.toggle("new-p2");
 })
 
 // 
@@ -78,7 +84,7 @@ btn.addEventListener("click", function(e) {
 
 // 
 
-let mt = document.querySelector(".main-three");
+let mt = document.querySelector(".main-two");
 let portfolio = document.querySelector(".portfolio");
 let box = document.querySelector(".box");
 let text = document.querySelector(".text");
