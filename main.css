@@ -463,7 +463,7 @@ a{
     padding-bottom: 50px;
 }
 .booox {
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
     align-items: center;
     width: 773px;
